@@ -1,0 +1,201 @@
+html{
+
+    background: #fefefe;
+}
+header {
+    width: 100%;
+}
+
+body{
+    margin:0 ;
+    padding:0 ;
+    font-family:'Roboto', sans-serif;
+    color: black;
+
+}
+
+ul{
+    list-style: none;
+}
+
+/**NavBar Area**/
+
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    color: #ffff;
+}
+
+.Navlinks {
+
+    color: #404040;
+    text-decoration: none;
+}
+
+#sign_in:hover{
+    box-shadow: 1px 1px 5px #999;
+}
+
+a {
+      text-decoration: none;
+      color: inherit;
+}
+
+li.Navlinks a:hover {
+      text-decoration: underline;
+}
+
+  
+/** google area**/
+
+.google #google_doodle {
+      display: block;
+      margin: 0 auto;
+      padding-top: 120px;
+      padding-bottom: 20px;
+      clear: both;
+      text-align: center;
+      width: 30%;
+      height: 5%;
+}
+
+
+/** form area **/
+
+.form-search {
+    text-align: center;
+    
+    
+   
+
+}
+
+#form_search {
+    
+
+    border-radius: 30px;
+    box-shadow: 10px;
+    color: black;
+    border: 1px solid #dfe1e5;
+    height: 10px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 50%;
+    font-size: 14px;
+}
+
+.form #form_search {
+    padding: 0 8px;
+    
+    
+  }
+
+  /** buttons **/
+  
+
+.lang{
+
+    text-align: center;
+}
+.lang a{
+    text-align: center;
+    font-size: small;
+    color: blue;
+
+
+}
+
+.buttons  {
+
+    text-align: center;
+    
+    color: grey;
+    cursor: pointer;
+    line-height: 27px;
+    font-size: 14px;
+    margin: 11px 4px;
+    
+    
+}
+
+
+
+.buttons input[type="submit"]:hover{
+
+        box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+        background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        color: #222;
+     
+    }
+
+input[type="submit"] {
+    padding: 10px 16px;
+    height: 36px;
+    min-width: 54px;
+    margin: 0 5px;
+    border: #f8f8f8;
+    border-radius: 4px;
+
+
+}
+
+/**footer**/
+
+footer{
+    margin-top: 200px;
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    
+
+}
+
+.Nigeria{
+    Text-align: left;
+    font-size: 14px;
+    padding: 13px;
+    color: #666666;
+    margin: 10px 0 0 42px;
+
+}
+
+.footer_left{
+
+    float: left;
+    
+}
+
+.footer_right{
+
+    float: right;
+    margin-right:30px;
+}
+
+
+footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+    
+  }
+  
+
